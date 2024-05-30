@@ -1,0 +1,91 @@
+.section-about-us{
+  background-image: url(/img/ornament/elements.png);
+  background-position: right -209px bottom -59px;
+  background-repeat: no-repeat;
+  background-size: 459px 408px;
+  /* padding: 59px 0; */
+}
+.container-about-us{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 50px;
+}
+.description-about-us{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+.title-about-us{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+}
+.p-container-about-us{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.p-about-us{
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+@media screen and (min-width: 768px){
+  .section-about-us{
+    background-position: right -176px bottom -49px;
+    background-size: 545px 484px;
+  }
+  .title-about-us{  
+  font-size: 44px;
+  line-height: 1.45;
+  }
+  .p-about-us{
+  font-size: 16px;
+  }
+  .container-about-us{
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .section-about-us{
+    background-position: right -159px bottom -80px;
+  }
+  .container-about-us{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .p-container-about-us{
+    width: 536px;
+    height: 284px;
+  }
+}
+  @media screen and (max-width: 767px) and (min-resolution: 192dpi){
+    .section-about-us{
+      background-image: url(/img/ornament/elements@2x.png);
+    }
+    
+  }
+  @media screen and (min-width: 768px) and (min-resolution: 192dpi){
+    .section-about-us{
+      background-image: url(/img/ornament/elements@2x.png);
+    }
+    
+  }
+  @media screen and (min-width: 1280px) and (min-resolution: 192dpi){
+    .section-about-us{
+      background-image: url(/img/ornament/elements@2x.png);
+    }
+    
+  }
