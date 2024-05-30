@@ -1,0 +1,145 @@
+/* ========HERO */
+.hero {
+  margin: 84px auto 40px auto;
+}
+.hero-ul {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.hero-girl {
+  border-radius: 4px;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.09;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  max-width: 335px;
+}
+.hero-title-span {
+  color: #ecd979;
+}
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 154px;
+  height: 49px;
+  background-color: inherit;
+  margin: 20px auto 40px auto;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  border-color: #ecd979;
+}
+
+.hero-order-icon {
+  fill: #ecd979;
+}
+
+.hero-star-block {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    margin: 100px auto 50px auto;
+  }
+  .hero-ul {
+    width: 704px;
+  }
+  .hero-title-block {
+    display: flex;
+
+    margin-bottom: 46px;
+    width: 704px;
+    justify-content: space-around;
+  }
+  .hero-title {
+    font-size: 54px;
+    line-height: 1.18;
+    min-width: 549px;
+  }
+  .hero-button {
+    margin: 40px auto 0 auto;
+  }
+
+  .hero-star-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    width: 115px;
+    height: 111px;
+
+    margin-top: 16px;
+    margin-left: 32px;
+  }
+  .hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: rgba(252, 249, 249, 0.4);
+  }
+
+  .hero-girl {
+    width: 413px;
+    height: 575px;
+  }
+
+  .hero-button {
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    margin: 100px auto 75px auto;
+  }
+  .hero-ul {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1172px;
+  }
+  .hero-girl {
+    width: 392px;
+    height: 545px;
+  }
+  .hero-title-block {
+    margin: 0 0 0 40px;
+    justify-content: space-between;
+    max-width: 740px;
+  }
+  .hero-title-text {
+    margin-right: 115px;
+  }
+  .hero-title {
+    min-width: 518px;
+    padding-top: 94px;
+  }
+  .hero-star-block {
+    margin-top: 14px;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 115px;
+    height: 111px;
+  }
+}
+@media screen and (min-width: 1440px) {
+}
