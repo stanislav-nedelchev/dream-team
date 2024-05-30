@@ -1,6 +1,7 @@
 /* ========HERO */
 .hero {
-  margin: 84px auto 40px auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 .hero-ul {
   display: flex;
@@ -55,14 +56,14 @@
 }
 @media screen and (min-width: 768px) {
   .hero {
-    margin: 100px auto 50px auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   .hero-ul {
     width: 704px;
   }
   .hero-title-block {
     display: flex;
-
     margin-bottom: 46px;
     width: 704px;
     justify-content: space-around;
@@ -110,7 +111,7 @@
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    margin: 100px auto 75px auto;
+    padding-bottom: 75px;
   }
   .hero-ul {
     flex-direction: row;
@@ -140,6 +141,4 @@
     min-width: 115px;
     height: 111px;
   }
-}
-@media screen and (min-width: 1440px) {
 }
