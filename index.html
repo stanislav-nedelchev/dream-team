@@ -173,22 +173,36 @@
   <div class="container">
     <ul class="hero-ul">
       <li class="hero-li">
-        <picture data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500">
+        <picture
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <source
             srcset="/dream-team/assets/hero-desktop-e9924686.webp 1x, /dream-team/assets/hero-desktop@2x-7f23da25.webp 2x"
             media="(min-width:1280px)"
+            width="392"
+            height="545"
           />
           <source
             srcset="/dream-team/assets/hero-tablet-128a38de.webp 1x, /dream-team/assets/hero-tablet@2x-be468e87.webp 2x"
             media="(min-width:768px)"
+            width="413"
+            height="575"
           />
           <source
             srcset="/dream-team/assets/hero-mobile-099f5bee.webp 1x, /dream-team/assets/hero-mobile@2x-d22d13f8.webp 2x"
             media="(min-width:320px)"
+            width="335"
+            height="545"
           />
-          <img class="hero-girl" src="/dream-team/assets/hero-desktop-e9924686.webp" alt="girl" />
+          <img
+            class="hero-girl"
+            src="/dream-team/assets/hero-desktop-e9924686.webp"
+            alt="girl"
+            width="392"
+            height="545"
+          />
         </picture>
       </li>
       <li class="hero-title-block">
@@ -210,7 +224,6 @@
             </svg>
           </a>
         </div>
-
         <div class="hero-star-block">
           <picture>
             <source srcset="data:image/webp;base64,UklGRpICAABXRUJQVlA4WAoAAAAQAAAAMAAAMAAAQUxQSC4BAAABgBXbbtjoQRADm0HLwGFQCF4GgmAIhhAIgRAIhiAIgfA+ongdIYiICcDqyorYYjQJoU28RrJ50vQNo5VbJskr3YrR3iDJBmC/8QCkk+RbtM+Pfi3Gu6zLzsq07htIvLJsc0QmMjnOrqUv66X2w0h5kotB0xN6kB2TJcg2gzPEwLSGqHMSAtOiIVQekp4Xg56aADXGNj0YfWQLZgl5hBoCQPZAu8BtYTqew+C5h2me7Iy7CwAZjDwSsjG2pcHoh1owUyDrGeU6NcMXDaGC6RCC6RpC50aIc6owZpnZg/SJzKCXPAlpR//b+rK+aT8HmZ4ggntZtsEV/D8v+3or16V14thWH35fc/DirQtwODuA9pbRNgDI1y0BQDHaG9oEbiPZ4ErTNybFaOKFraxYDVZQOCA+AQAA0AcAnQEqMQAxAD6ZQJZIIqQtKTH1XJCwEwlmBigA+FMsoxVgspPqP543TK/1m9gDpNP8EA4G6GGur1ZIM6rW9K3ZFzr4U0AA/uXc//ot//0TP//0OJvfp/zvf/6l1I1om9klARECK67H/P+t0Qk0l+ab+so5/5K/WLFhLN30D0ix/P8vkF/sZ8eM6T2Exuhn1ztbOqegiD4jYnTBygnpcMfC9WmK8cfB/gMoi7bo2g6gJg2AxvnDTfL/A0D/wIdchexkbWD9YBNYjrrH+EgLh9Rr8ECDXEPOwD5th+EE1+V8mAy2UiLJTeG77/4/59fc+8WIwav8fJGhu69vf4ub/asSHYwQrIYOiORZy/Z7NAN/8rsjIef2fQGzriJoGL9+Lk72Urx91DZkL+akyD97pdxEc0ue7/kFNCPsAAAA 1x, data:image/webp;base64,UklGRrQEAABXRUJQVlA4WAoAAAAQAAAAYQAAYQAAQUxQSH8CAAABgFbbUpBrItAAGmgDbMBrwGtABCIYgQhGIIIRJgIR7g9x5IMJEBETQLOHxoF0dww0o1sBgFM1h+6mx+a/Xb36zdtFIsD2Q8Sr/7DdQFqjAkCW8RvLEgDca/ADbAUZwixwFU9eo3WA/OJY0sxLalgJ79V2CsRnx1W8L2EEaJGIHD56IkoNQrOCkwDFe/7C3leI7Qq7bMYl/GzHCmG2sML/bHGFNFuawvhNlmfLMuvNEMcA7iuHrXfPVjtmi7lwA9iMSBDe9UwV05d0XgxhGuElOoYR1HRhGpp1iWNMU8WOoUuTQoO9JscoqnowDU96xHGmadHMODq1KPRDr4X9BbEOTL90UNKO87lpwWkbYcLZoCqXYEQ21QaNa9o6/mQozsVThPqx6FeSfpGydpmIkm6JnqHp1QL1N9aKN3p3rBNbkjrW6LYkN5c+1dDnok2hgUYbO8JpY0YUbco3U6HuZT64GwqzFTmGymwFG0Np3l5Cg9otdBJUT0SUoXymCPVT0a9E/SIdhTXj86DnnqpKrSZHUvNXWJd2/hkauCfWouWDhjstLP2SdWD6pYOS/hdFi/MHpmnRzLgINdM41qMO81DUjyqaXIMcNG1mTFQFeQzr0oYEKOtHJAlfZyrz1XTWW5JGGAYal/y/G3rW2W7q7n/5ugGwHUHmcCTOs+Vefz8MzZhmS7JZ/2eLK4TZwgp+tmMFN9u+XD0O/sLHUWR2BSNpiYj8F0tEsUnMCiSolp6nrNDTVQEtyb2WqG+ahG2HKL+0laql9yzJ9O64w2vcj0RifmMS50ddIwH3RnL/FmXkGIhrkDvoc+1d9PnYSc2tZ7+pej4KqW4awFY3CtwCzQ4AVlA4IA4CAAAwDwCdASpiAGIAPp1GnEikJqcirHrrMLATiWIIcryAzQLwB+qsCA/AD9AP6qirqm63rkvseSl9s91twPMB+xXrb+hTzzOor3lS/AAkb1zn0JiNVKFxq8xGL199uGG2+qm/zChtJYexBwroX/jO224Yjdgtjyq+EMETdcOpOth/y0NAAP7ND7+nRr0cYwycQOHwbDtXMs+mw3pSkWslUQzKEF2vlxOuOp1g30K97n9scLLLbQ9/+gDf/88SENHQGXTr5vW6jN6aAQNWHZBUH8r/5UOF8C+1015UCT6yH0xDdl5ZsGffe2sW0dJ2Ta3mdF/Deez+28OetGQgLl9kCv10usn6WQtfavJIscFwfSufCwmYMDcAAB77uMzeCwRRKhzk9RRsi75RIptMn8lvFKK/Ul8O/IjgI+dZpOkIIOEguGAgNbj3QhKT6yQDl17ZS5U0AF5zvkGc79dbP//trm1Ysa+sNr4DEx7mps76FBChPnnhBSVDu5aoBXe4aaztDLq/VJYEmAV5qwRxpGnUDB5SYg5Ar7dS/7oSJAvRwf2U3sKHe9phB6HvFYIFA1ht/sY81zp3Xc1gqwm82Lsp33uWirg7/2gkUP2wxq+XfbyO+g6sj/89m//54gmZFQEPMPi7kaff//b9FcvEe9TpUX3PFeOzuDJuH6Uffg3ANzKvBt8CQClO7oVozWLFAAAA 2x" />
@@ -265,18 +278,26 @@
               <source
                 media="(min-width: 1280px)"
                 srcset="/dream-team/assets/1-desk1280-2d13bbd2.webp 1x, /dream-team/assets/1-desk1280@2x-905aac22.webp 2x"
+                width="380"
+                height="430"
               />
               <source
                 media="(min-width: 768px)"
                 srcset="/dream-team/assets/1mob-abcc136f.webp 1x, /dream-team/assets/1tab@2x-49d1416d.webp 2x"
+                width="342"
+                height="430"
               />
               <source
                 media="(max-width: 767px)"
                 srcset="/dream-team/assets/1mob-abcc136f.webp 1x, /dream-team/assets/1mob@2x-5f3fc3ad.webp 2x"
+                width="335"
+                height="430"
               />
               <img
                 src="../img//our-collection/1-desk1280.webp"
                 alt="vyshyvanka"
+                width="380"
+                height="430"
               />
             </picture>
             <div class="our-collection-text">
@@ -293,6 +314,8 @@
               src="/dream-team/assets/1-desk1280-2d13bbd2.webp"
               srcset="/dream-team/assets/1-2side-eafaf226.webp 1x, /dream-team/assets/1-2side@2x-129751ad.webp 2x"
               alt="vyshyvanka"
+              width="380"
+              height="430"
             />
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">
@@ -310,16 +333,27 @@
               <source
                 media="(min-width: 1280px)"
                 srcset="/dream-team/assets/2-desk1280-e48de5de.webp 1x, /dream-team/assets/2-desk1280@2x-7ce420f2.webp 2x"
+                width="380"
+                height="430"
               />
               <source
                 media="(min-width: 768px)"
                 srcset="/dream-team/assets/2tab-fc72ea6f.webp 1x, /dream-team/assets/2tab@2x-a6851d5f.webp 2x"
+                width="342"
+                height="430"
               />
               <source
                 media="(max-width: 767px)"
                 srcset="/dream-team/assets/2mob-95ce731c.webp 1x, /dream-team/assets/2mob@2x-0979967c.webp 2x"
+                width="335"
+                height="430"
               />
-              <img src="/dream-team/assets/2-desk1280-e48de5de.webp" alt="vyshyvanka" />
+              <img
+                src="/dream-team/assets/2-desk1280-e48de5de.webp"
+                alt="vyshyvanka"
+                width="380"
+                height="430"
+              />
             </picture>
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Women's blouse Gorgany</h3>
@@ -332,6 +366,8 @@
               src="/dream-team/assets/2-desk1280-e48de5de.webp"
               srcset="/dream-team/assets/2-2side-955221d3.webp 1x, /dream-team/assets/2-2side@2x-bffad739.webp 2x"
               alt="vyshyvanka"
+              width="380"
+              height="430"
             />
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Women's blouse Gorgany</h3>
@@ -347,16 +383,27 @@
               <source
                 media="(min-width: 1280px)"
                 srcset="/dream-team/assets/3-desk1280-3f468295.webp 1x, /dream-team/assets/3-desk1280@2x-3bd99070.webp 2x"
+                width="380"
+                height="430"
               />
               <source
                 media="(min-width: 768px)"
                 srcset="/dream-team/assets/3tab-0b5c7a7b.webp 1x, /dream-team/assets/3tab@2x-063affea.webp 2x"
+                width="342"
+                height="430"
               />
               <source
                 media="(max-width: 767px)"
                 srcset="/dream-team/assets/3mob-f4cbf5d3.webp 1x, /dream-team/assets/3mob@2x-8b67add3.webp 2x"
+                width="335"
+                height="430"
               />
-              <img src="/dream-team/assets/3-desk1280-3f468295.webp" alt="vyshyvanka" />
+              <img
+                src="/dream-team/assets/3-desk1280-3f468295.webp"
+                alt="vyshyvanka"
+                width="380"
+                height="430"
+              />
             </picture>
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Women's blouse Crimea</h3>
@@ -369,6 +416,8 @@
               src="/dream-team/assets/3-desk1280-3f468295.webp"
               srcset="/dream-team/assets/3-2side-d6797b82.webp 1x, /dream-team/assets/3-2side@2x-d5e534e7.webp 2x"
               alt="vyshyvanka"
+              width="380"
+              height="430"
             />
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Women's blouse Crimea</h3>
@@ -384,16 +433,27 @@
               <source
                 media="(min-width: 1280px)"
                 srcset="/dream-team/assets/4-desk1280-3ac3955a.webp 1x, /dream-team/assets/4-desk1280@2x-58025d8a.webp 2x"
+                width="380"
+                height="430"
               />
               <source
                 media="(min-width: 768px)"
                 srcset="/dream-team/assets/4tab-e33d083c.webp 1x, /dream-team/assets/4tab@2x-6d1fc513.webp 2x"
+                width="342"
+                height="430"
               />
               <source
                 media="(max-width: 767px)"
                 srcset="/dream-team/assets/4mob-ba8e9b06.webp 1x, /dream-team/assets/4mob@2x-6ee9c9dc.webp 2x"
+                width="335"
+                height="430"
               />
-              <img src="/dream-team/assets/4-desk1280-3ac3955a.webp" alt="vyshyvanka" />
+              <img
+                src="/dream-team/assets/4-desk1280-3ac3955a.webp"
+                alt="vyshyvanka"
+                width="380"
+                height="430"
+              />
             </picture>
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Men's shirt Verkhovina</h3>
@@ -406,6 +466,8 @@
               src="/dream-team/assets/4-desk1280-3ac3955a.webp"
               srcset="/dream-team/assets/4-2side-4e585865.webp 1x, /dream-team/assets/4-2side@2x-3a28f5dd.webp 2x"
               alt="vyshyvanka"
+              width="380"
+              height="430"
             />
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Men's shirt Verkhovina</h3>
@@ -421,16 +483,27 @@
               <source
                 media="(min-width: 1280px)"
                 srcset="/dream-team/assets/5-desk1280-d2624a73.webp 1x, /dream-team/assets/5-desk1280@2x-e1a962ac.webp 2x"
+                width="380"
+                height="430"
               />
               <source
                 media="(min-width: 768px)"
                 srcset="/dream-team/assets/5tab-137ef9ad.webp 1x, /dream-team/assets/5tab@2x-6ae61214.webp 2x"
+                width="342"
+                height="430"
               />
               <source
                 media="(max-width: 767px)"
                 srcset="/dream-team/assets/5mob-91731805.webp 1x, /dream-team/assets/5mob@2x-b7edcfc1.webp 2x"
+                width="335"
+                height="430"
               />
-              <img src="/dream-team/assets/5-desk1280-d2624a73.webp" alt="vyshyvanka" />
+              <img
+                src="/dream-team/assets/5-desk1280-d2624a73.webp"
+                alt="vyshyvanka"
+                width="380"
+                height="430"
+              />
             </picture>
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Mountain men's shirt</h3>
@@ -443,6 +516,8 @@
               src="/dream-team/assets/5-desk1280-d2624a73.webp"
               srcset="/dream-team/assets/5-2side-114c6612.webp 1x, /dream-team/assets/5-2side@2x-cb1ebb46.webp 2x"
               alt="vyshyvanka"
+              width="380"
+              height="430"
             />
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Mountain men's shirt</h3>
@@ -458,16 +533,27 @@
               <source
                 media="(min-width: 1280px)"
                 srcset="/dream-team/assets/6-desk1280-fd32f384.webp 1x, /dream-team/assets/6-desk1280@2x-dd63fb5e.webp 2x"
+                width="380"
+                height="430"
               />
               <source
                 media="(min-width: 768px)"
                 srcset="/dream-team/assets/6tab-031c6e34.webp 1x, /dream-team/assets/6tab@2x-702e24f1.webp 2x"
+                width="342"
+                height="430"
               />
               <source
                 media="(max-width: 767px)"
                 srcset="/dream-team/assets/6mob-4ebcf68f.webp 1x, /dream-team/assets/6mob@2x-5411bcdb.webp 2x"
+                width="335"
+                height="430"
               />
-              <img src="/dream-team/assets/6-desk1280-fd32f384.webp" alt="vyshyvanka" />
+              <img
+                src="/dream-team/assets/6-desk1280-fd32f384.webp"
+                alt="vyshyvanka"
+                width="380"
+                height="430"
+              />
             </picture>
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Men's shirt Yasen</h3>
@@ -480,6 +566,8 @@
               src="/dream-team/assets/6-desk1280-fd32f384.webp"
               srcset="/dream-team/assets/6-2side-a3053dd1.webp 1x, /dream-team/assets/6-2side@2x-846fac47.webp 2x"
               alt="vyshyvanka"
+              width="380"
+              height="430"
             />
             <div class="our-collection-text">
               <h3 class="our-collection-item-name">Men's shirt Yasen</h3>
@@ -540,16 +628,22 @@
         <source
           srcset="/dream-team/assets/your-order-desktop1280-b33ee654.webp 1x, /dream-team/assets/your-order-desktop1280@2x-9c0ceb4b.webp 2x"
           media="(min-width: 1280px)"
+          width="588"
+          height="521"
         />
         <source
           srcset="/dream-team/assets/your-order-tablet-31d60d33.webp 1x, /dream-team/assets/your-order-tablet@2x-a08dce61.webp 2x"
           media="(min-width: 768px)"
+          width="704"
+          height="521"
         />
 
         <img
           class="order-item-img-pic"
           src="/dream-team/assets/your-order-desktop1280-b33ee654.webp"
           alt="jacket"
+          width="588"
+          height="521"
         />
       </picture>
     </div>
