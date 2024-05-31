@@ -1,3 +1,3 @@
-import './js/mobile-menu';
+import './js/open-mobile-menu';
 
-  AOS.init();
+AOS.init();
