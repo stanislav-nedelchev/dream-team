@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 767px) {
   .our-collection-item {
-    height: 484px;
+    max-height: 484px;
   }
 
   .our-collection-picture img {
