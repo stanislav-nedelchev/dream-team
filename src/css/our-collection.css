@@ -58,7 +58,7 @@
   }
 
   .our-collection-picture img {
-    height: 430px;
+    max-height: 430px;
   }
 }
 
