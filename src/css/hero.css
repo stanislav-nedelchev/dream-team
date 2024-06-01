@@ -16,7 +16,6 @@
   line-height: 1.09;
   letter-spacing: -0.03em;
   color: #fcf9f9;
-  max-width: 335px;
 }
 .hero-title-span {
   color: #ecd979;
@@ -54,6 +53,13 @@
 .hero-star-block {
   display: none;
 }
+
+@media screen and (max-width: 767px) {
+  .hero-title {
+    max-width: 335px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 100px;
@@ -71,7 +77,7 @@
   .hero-title {
     font-size: 54px;
     line-height: 1.18;
-    max-width: 549px;
+    width: 549px;
   }
   .hero-button {
     margin: 40px auto 0 auto;
@@ -131,7 +137,7 @@
     margin-right: 115px;
   }
   .hero-title {
-    max-width: 518px;
+    width: 518px;
     padding-top: 94px;
   }
   .hero-star-block {
