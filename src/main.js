@@ -1,3 +1,2 @@
 import './js/open-mobile-menu';
-
-AOS.init();
+import './js/aos';
