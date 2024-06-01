@@ -71,7 +71,7 @@
   .hero-title {
     font-size: 54px;
     line-height: 1.18;
-    min-width: 549px;
+    max-width: 549px;
   }
   .hero-button {
     margin: 40px auto 0 auto;
@@ -131,7 +131,7 @@
     margin-right: 115px;
   }
   .hero-title {
-    min-width: 518px;
+    max-width: 518px;
     padding-top: 94px;
   }
   .hero-star-block {
